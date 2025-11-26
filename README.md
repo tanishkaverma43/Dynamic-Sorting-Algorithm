@@ -12,105 +12,10 @@
 
 ---
 
-<style>
-@keyframes gradient {
-  0% { background-position: 0% 50%; }
-  50% { background-position: 100% 50%; }
-  100% { background-position: 0% 50%; }
-}
-
-@keyframes float {
-  0%, 100% { transform: translateY(0px); }
-  50% { transform: translateY(-10px); }
-}
-
-@keyframes pulse {
-  0%, 100% { opacity: 1; }
-  50% { opacity: 0.7; }
-}
-
-@keyframes slideIn {
-  from { opacity: 0; transform: translateX(-20px); }
-  to { opacity: 1; transform: translateX(0); }
-}
-
-.animated-gradient {
-  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
-  background-size: 400% 400%;
-  animation: gradient 15s ease infinite;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
-  font-weight: bold;
-}
-
-.feature-card {
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-  border-radius: 15px;
-  padding: 20px;
-  margin: 15px 0;
-  color: white;
-  box-shadow: 0 10px 30px rgba(0,0,0,0.2);
-  animation: slideIn 0.6s ease-out;
-  transition: transform 0.3s ease;
-}
-
-.feature-card:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 15px 40px rgba(0,0,0,0.3);
-}
-
-.algorithm-badge {
-  display: inline-block;
-  padding: 8px 16px;
-  margin: 5px;
-  border-radius: 20px;
-  font-weight: bold;
-  animation: pulse 2s ease-in-out infinite;
-  color: white;
-  text-shadow: 1px 1px 2px rgba(0,0,0,0.3);
-}
-
-.bubble { background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); }
-.selection { background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%); }
-.insertion { background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%); }
-.merge { background: linear-gradient(135deg, #43e97b 0%, #38f9d7 100%); }
-.quick { background: linear-gradient(135deg, #fa709a 0%, #fee140 100%); }
-.heap { background: linear-gradient(135deg, #30cfd0 0%, #330867 100%); }
-
-.stats-box {
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-  border-radius: 10px;
-  padding: 15px;
-  margin: 10px;
-  color: white;
-  display: inline-block;
-  min-width: 200px;
-  animation: float 3s ease-in-out infinite;
-}
-
-.tech-stack {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 10px;
-  justify-content: center;
-  margin: 20px 0;
-}
-
-.tech-item {
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-  padding: 10px 20px;
-  border-radius: 25px;
-  color: white;
-  font-weight: bold;
-  animation: slideIn 0.5s ease-out;
-}
-</style>
-
 <div align="center">
-  <h1 class="animated-gradient">🚀 Dynamic Sorting Explorer</h1>
-  <p style="font-size: 1.2em; color: #666; margin: 20px 0;">
-    An interactive web application that visualizes sorting algorithms in real-time with beautiful animations and color-coded comparisons
+  <h1>🚀 Dynamic Sorting Explorer</h1>
+  <p>
+    <strong>An interactive web application that visualizes sorting algorithms in real-time with beautiful animations and color-coded comparisons</strong>
   </p>
 </div>
 
@@ -118,25 +23,17 @@
 
 ## ✨ Features
 
-<div class="feature-card">
-  <h3>🎯 Interactive Visualization</h3>
-  <p>Watch sorting algorithms come to life with real-time bar animations and color-coded comparisons</p>
-</div>
+### 🎯 Interactive Visualization
+Watch sorting algorithms come to life with real-time bar animations and color-coded comparisons
 
-<div class="feature-card">
-  <h3>⚙️ Customizable Controls</h3>
-  <p>Adjust array size (20-150 elements) and animation speed (1-5 levels) to suit your learning pace</p>
-</div>
+### ⚙️ Customizable Controls
+Adjust array size (20-150 elements) and animation speed (1-5 levels) to suit your learning pace
 
-<div class="feature-card">
-  <h3>📊 Complexity Analysis</h3>
-  <p>Real-time display of time and space complexity for each algorithm (Best, Average, Worst cases)</p>
-</div>
+### 📊 Complexity Analysis
+Real-time display of time and space complexity for each algorithm (Best, Average, Worst cases)
 
-<div class="feature-card">
-  <h3>🎨 Beautiful UI</h3>
-  <p>Modern, responsive design with smooth animations and intuitive controls</p>
-</div>
+### 🎨 Beautiful UI
+Modern, responsive design with smooth animations and intuitive controls
 
 ---
 
@@ -144,12 +41,12 @@
 
 <div align="center">
 
-<span class="algorithm-badge bubble">🫧 Bubble Sort</span>
-<span class="algorithm-badge selection">🎯 Selection Sort</span>
-<span class="algorithm-badge insertion">📥 Insertion Sort</span>
-<span class="algorithm-badge merge">🔀 Merge Sort</span>
-<span class="algorithm-badge quick">⚡ Quick Sort</span>
-<span class="algorithm-badge heap">📚 Heap Sort</span>
+[![Bubble Sort](https://img.shields.io/badge/🫧_Bubble_Sort-667eea?style=for-the-badge)](https://github.com/tanishkaverma43/Dynamic-Sorting-Algorithm)
+[![Selection Sort](https://img.shields.io/badge/🎯_Selection_Sort-f5576c?style=for-the-badge)](https://github.com/tanishkaverma43/Dynamic-Sorting-Algorithm)
+[![Insertion Sort](https://img.shields.io/badge/📥_Insertion_Sort-00f2fe?style=for-the-badge)](https://github.com/tanishkaverma43/Dynamic-Sorting-Algorithm)
+[![Merge Sort](https://img.shields.io/badge/🔀_Merge_Sort-38f9d7?style=for-the-badge)](https://github.com/tanishkaverma43/Dynamic-Sorting-Algorithm)
+[![Quick Sort](https://img.shields.io/badge/⚡_Quick_Sort-fee140?style=for-the-badge)](https://github.com/tanishkaverma43/Dynamic-Sorting-Algorithm)
+[![Heap Sort](https://img.shields.io/badge/📚_Heap_Sort-330867?style=for-the-badge)](https://github.com/tanishkaverma43/Dynamic-Sorting-Algorithm)
 
 </div>
 
@@ -206,16 +103,13 @@
 
 ## 🎮 How to Use
 
-<div class="feature-card">
-  <h3>📋 Step-by-Step Guide</h3>
-  <ol style="text-align: left; padding-left: 20px;">
-    <li><strong>Generate Array:</strong> Click "Generate New Array!" to create a random array</li>
-    <li><strong>Adjust Size:</strong> Use the slider to set array size (20-150 elements)</li>
-    <li><strong>Set Speed:</strong> Adjust the speed slider (1 = slowest, 5 = fastest)</li>
-    <li><strong>Choose Algorithm:</strong> Click any sorting algorithm button to start visualization</li>
-    <li><strong>Watch & Learn:</strong> Observe how the algorithm sorts the array with color-coded animations</li>
-  </ol>
-</div>
+### 📋 Step-by-Step Guide
+
+1. **Generate Array:** Click "Generate New Array!" to create a random array
+2. **Adjust Size:** Use the slider to set array size (20-150 elements)
+3. **Set Speed:** Adjust the speed slider (1 = slowest, 5 = fastest)
+4. **Choose Algorithm:** Click any sorting algorithm button to start visualization
+5. **Watch & Learn:** Observe how the algorithm sorts the array with color-coded animations
 
 ### 🎨 Color Coding
 
@@ -228,11 +122,13 @@
 
 ## 🛠️ Technology Stack
 
-<div class="tech-stack">
-  <div class="tech-item">HTML5</div>
-  <div class="tech-item">CSS3</div>
-  <div class="tech-item">JavaScript (ES5+)</div>
-  <div class="tech-item">SCSS</div>
+<div align="center">
+
+[![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/HTML)
+[![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/CSS)
+[![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+[![SCSS](https://img.shields.io/badge/SCSS-CC6699?style=flat-square&logo=sass&logoColor=white)](https://sass-lang.com/)
+
 </div>
 
 ---
@@ -276,24 +172,12 @@ This project is perfect for:
 
 ## 🌟 Key Highlights
 
-<div class="stats-box">
-  <h3>📊 6 Algorithms</h3>
-  <p>Comprehensive coverage of major sorting techniques</p>
-</div>
+<div align="center">
 
-<div class="stats-box" style="animation-delay: 0.5s;">
-  <h3>⚡ Real-time</h3>
-  <p>Live visualization with adjustable speed</p>
-</div>
+| 📊 6 Algorithms | ⚡ Real-time | 🎨 Interactive | 📈 Complexity Info |
+|:---:|:---:|:---:|:---:|
+| Comprehensive coverage of major sorting techniques | Live visualization with adjustable speed | Engaging visual experience with color coding | Built-in time and space complexity analysis |
 
-<div class="stats-box" style="animation-delay: 1s;">
-  <h3>🎨 Interactive</h3>
-  <p>Engaging visual experience with color coding</p>
-</div>
-
-<div class="stats-box" style="animation-delay: 1.5s;">
-  <h3>📈 Complexity Info</h3>
-  <p>Built-in time and space complexity analysis</p>
 </div>
 
 ---
@@ -329,8 +213,8 @@ This project is open source and available under the [MIT License](LICENSE).
 
 **Dynamic Sorting Explorer**
 
-- 🌐 Project: [GitHub Repository](https://github.com/yourusername/Dynamic-Sorting-Explorer)
-- 📧 Issues: [Report a Bug](https://github.com/yourusername/Dynamic-Sorting-Explorer/issues)
+- 🌐 Project: [GitHub Repository](https://github.com/tanishkaverma43/Dynamic-Sorting-Algorithm)
+- 📧 Issues: [Report a Bug](https://github.com/tanishkaverma43/Dynamic-Sorting-Algorithm/issues)
 
 ---
 
